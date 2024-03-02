@@ -8,7 +8,7 @@
 :root {
     --primary-color: #BCEBCB;
     --secondary-color: #F7FFF6;
-    --text-color: #87D68D;
+    --text-color: #60e36b;
 }
 
 body {
@@ -22,7 +22,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 95vh;
+    height: 92vh;
     background-color: var(--primary-color);
 }
 
@@ -61,14 +61,15 @@ h1 {
 #reset {
     padding: 1.5vmin 4vmin;
     font-size: 1rem;
-    margin: 4vmin 0 0 3vmin;
     background-color: black;
     color: var(--text-color);
     border-radius: 10px;
 }
 
 #modal,
-.content {
+.content,
+footer,
+.social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,11 +98,19 @@ h1 {
 }
 
 #turn {
-    font-size: 7vmin;
+    margin: 4vmin 0 3vmin 0;
+    text-align: center;
+    font-size: 6vmin;
 }
 
 footer{
-    height: 5vh;
+    flex-direction: column;
+    height: 8vh;
     text-align: center;
     background-color: var(--primary-color);
+}
+
+.social-icons a{
+    color: black;
+    margin-right: 2vmin;
 }
