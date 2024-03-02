@@ -15,6 +15,8 @@ body {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    height: 100%;
+    background-color: var(--primary-color);
 }
 
 main {
@@ -22,8 +24,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 92vh;
-    background-color: var(--primary-color);
+    height: 90vh;
 }
 
 h1 {
@@ -105,9 +106,7 @@ footer,
 
 footer{
     flex-direction: column;
-    height: 8vh;
     text-align: center;
-    background-color: var(--primary-color);
 }
 
 .social-icons a{
