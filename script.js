@@ -49,7 +49,7 @@ for (const box of boxes) {
         checkWinner();
         console.log(chance);
         if(chance == 9 && win == false){
-            turn.innerText = "It's a draw😉 try again!";
+            turn.innerText = "It's a draw🙆‍♂️ try again!";
         }
     });
 }
